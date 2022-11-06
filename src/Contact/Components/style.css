@@ -1,5 +1,5 @@
 body {
-    background-color: #444442;
+    background-color: #FFFFFF;
     padding-top: 85px;
 }
 
@@ -7,7 +7,7 @@ h1 {
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 600;
     font-size: 72px;
-    color: white;
+    color: rgb(75, 75, 75);
     text-align: center;
 }
 
