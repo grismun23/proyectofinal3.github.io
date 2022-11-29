@@ -24,10 +24,46 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+   
+        <title>React App</title>
+        <link rel="stylesheet" href="estilos.css">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <style>
+      body{background-color: rgb(255, 255, 255);font-family: 'Poppins', sans-serif, 'arial';}
+      #menú ul li {
+          display: inline-block;
+      }
+      #menú ul li a{
+    color: rgb(255, 255, 255);
+    display:flexbox;
+    padding: 5px;
+    text-decoration-line: none;
+  }
+      #menú ul li a:hover{
+    background-color: #3ab40a;
+    padding: 30px;
+  }
+  </style>
+    <div id="menú">
+      <ul>
+  <nav class="navbar" style="background-color: #87d30d">
+  
+      <a class="navbar-brand" href="#">
+          <li id="Vida Silvestre" class="nav-items link"> 
+            <a href="#"> Vida Silvestre</a>
+          </li>
+        </a>
+          <li> <a href="#">Acerca</a></li>
+          <li> <a href="#">Ayudanos</a></li>
+          <li> <a href="#">Contacto</a></li>
+          <li class="h1"> <a href="#"><form class="d-flex" role="search"></a>
+          </form>
+      </ul>
+
+  </div>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +75,27 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <form action="" method="POST" id="form">
+      <div class="form">
+          <h1>Contactanos</h1>
+          <div class="grupo">
+              <input type="text" name="" id="name" ><span class="barra"></span>
+              <label for="">Nombre</label>
+          </div>
+          <div class="grupo">
+              <input type="email" name="" id="email" ><span class="barra"></span>
+              <label for="">Email</label>
+          </div>
+          <div class="grupo">
+              <input type="text" name="" id="mensaje" ><span class="barra"></span>
+              <label for="">Dejanos tu mensaje!</label>
+          </div>
+          
+          <button type="submit">Enviar</button>
+          <p class="warnings" id="warnings"></p>
+      </div>
+  </form>
+
+  <script src="app1.js"></script>
   </body>
 </html>
