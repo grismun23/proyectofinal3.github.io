@@ -10,6 +10,9 @@ height: 768px;
 background: transparent  0% 0% no-repeat padding-box;
 opacity: 1;
 }
+.centrado img {
+    height: 500px;
+}
 
 div.todo {
     top: 2208px;

@@ -20,7 +20,7 @@ function Acordeon() {
         </Col>
         <Col>
         <div class="centrado">
-        <img src ="https://pixabay.com/get/gcd5cc32d1f7fbdb5d769940c8ac84b8caf6455f63fec044158e2f426471a385daa74f7f8f22445cfa2a492cdfd8fb59d_640.jpg"/>
+        <img src ="https://images.unsplash.com/photo-1471644303053-08771e8493d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"/>
         </div>
         </Col>
       </Row>
