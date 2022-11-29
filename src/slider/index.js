@@ -6,7 +6,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://pixabay.com/get/gfca599c2ad0e8f06cdf72ea45f29d546886b9d2eb8cf2aa8b4f6547ddac09539fa80d08b0df792b469c0b50304ca253ebdb52185561a5655e54aaef761603528_1280.jpg"
+          src="https://cdn.pixabay.com/photo/2022/11/02/22/07/butterfly-7566106_1280.jpg"
           alt="First slide"
         />
       </Carousel.Item>
