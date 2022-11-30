@@ -47,3 +47,11 @@ div.izquierda {
 
 
 }
+
+@media (max-width: 768px) {
+    .h2.wb2 {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}

@@ -27,6 +27,7 @@ function Acordeon() {
     </Container>
     </div>
   );
+
 }
 
 export default Acordeon;

@@ -4,9 +4,7 @@ import UncontrolledExample from './slider/index'
 import Contact from './Contact/Form'
 import AutoLayoutExample from './texto/texto'
 import Acordeon from './imagencondesplegable/index'
-
-
-
+import Slider2 from './Contact/slider2/slider2'
 
 
 function App() {
@@ -21,6 +19,9 @@ function App() {
     <div>
       <Acordeon />
     </div>
+    <div>
+   <Slider2/>
+   </div>
    <div>
    <Contact/>
    </div>

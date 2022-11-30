@@ -1,0 +1,31 @@
+.habitad {
+  font-display: center;
+  background: rgb(31,128,1);
+  background: linear-gradient(90deg,#87d30d 0%, rgba(0,36,23,1) 100%, rgba(30,164,39,1) 100%);
+  border-radius: 10px;
+  height: 550px;
+text-align: center;
+color: #fff;
+padding-top: 30px;
+margin-bottom: 60px;
+
+}
+.text {
+    padding-top: 25%;
+    font-family: 'Poppins', sans-serif, 'arial';
+    justify-content: right !important;
+}
+.containerhab {
+    background-color: gray;
+    height: 300px;
+
+}
+
+@media (max-width: 768px) {
+    .habitad {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}
+
