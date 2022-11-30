@@ -22,9 +22,7 @@ function App() {
     <div>
    <Slider2/>
    </div>
-   <div>
-   <Contact/>
-   </div>
+
     </div>
   );
 }

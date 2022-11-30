@@ -17,7 +17,8 @@ const Formu = ({ user, handleChange, handleSubmit, sucess, error }) => {
             <div class="row">
 			<h4>Queremos leer tu mensaje!</h4>
 	</div>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} Action="https://formspree.io/f/xyyvqpln" 
+Method="POST">
         <div class="row input-container">
             <div class="col-xs-12">
               <div class="styled-input wide">

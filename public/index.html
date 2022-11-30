@@ -14,7 +14,6 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -25,43 +24,46 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+   
+        <title>React App</title>
+        <link rel="stylesheet" href="estilos.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #fff ;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Vida<span style="font-family: 'Times New Roman', Times, serif; color: #87d30d; font-weight: 700;">Silvestre</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Álbum</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Especies
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Tierra</a></li>
-                <li><a class="dropdown-item" href="#">Mar</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Aire</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+    
+    <style>
+      body{background-color: rgb(255, 255, 255);font-family: 'Poppins', sans-serif, 'arial';}
+      #menú ul li {
+          display: inline-block;
+      }
+      #menú ul li a{
+    color: rgb(255, 255, 255);
+    display:flexbox;
+    padding: 5px;
+    text-decoration-line: none;
+  }
+      #menú ul li a:hover{
+    background-color: #3ab40a;
+    padding: 30px;
+  }
+  </style>
+    <div id="menú">
+      <ul>
+  <nav class="navbar" style="background-color: #87d30d">
+  
+      <a class="navbar-brand" href="#">
+          <li id="Vida Silvestre" class="nav-items link"> 
+            <a href="#"> Vida Silvestre</a>
+          </li>
+        </a>
+          <li> <a href="#">Acerca</a></li>
+          <li> <a href="#">Ayudanos</a></li>
+          <li> <a href="#">Contacto</a></li>
+          <li class="h1"> <a href="#"><form class="d-flex" role="search"></a>
           </form>
-        </div>
-      </div>
-    </nav>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+      </ul>
+
+  </div>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -73,7 +75,34 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+    <form Action="https://formspree.io/f/xyyvqpln" 
+    Method="POST" id="form">
+      <div class="form">
+          <h1>Contactanos</h1>
+          <div class="grupo">
+              <input type="text" name="" id="name" ><span class="barra"></span>
+              <label for="">Nombre</label>
+          </div>
+          <div class="grupo">
+              <input type="email" name="" id="email" ><span class="barra"></span>
+              <label for="">Email</label>
+          </div>
+          <div class="grupo">
+              <input type="text" name="" id="mensaje" ><span class="barra"></span>
+              <label for="">Dejanos tu mensaje!</label>
+          </div>
+          
+          <button type="submit">Enviar</button>
+          <p class="warnings" id="warnings"></p>
+      </div>
+  </form>
+  <div class="tabla">
+    <table>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+
+  <script src="app1.js"></script>
   </body>
 </html>
