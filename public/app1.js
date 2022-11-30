@@ -14,10 +14,8 @@ form.addEventListener("submit", e=>{
         warnings += `El nombre no es valido <br>`
         entrar = true
     }
-    if(!regexEmail.test(email.value)){ 
-        warnings += `El email no es valido <br>`
-        entrar = true
-    }
+
+
     if(mensaje.value.length <10){
         warnings += `Mensaje demasiado corto<br>`
         entrar = true
